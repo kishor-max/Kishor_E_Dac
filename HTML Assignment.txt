@@ -1,0 +1,435 @@
+Assignment 1: 
+
+Design a Web page for your Bio-data. You must add the following sections
+• Personal details
+• Family details
+• Educational Qualifications
+• Extra-Curricular Activities
+• Strength and Weakness
+
+answer :
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<style>
+    fieldset {
+        
+       margin: 100px;
+      
+       text-align: justify;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        width: 1000px;
+        background-color: bisque;
+        border:2px solid black;
+     
+    }
+    
+    
+</style>
+
+<body>
+    <fieldset>
+
+    <h1 align="center">Resume</h1>
+    <br><hr>
+    <img src="kishor.jpg" align="right" alt="" width="150px" height="200px">
+    <br><br>
+    <h3>Kishor Pandit</h3>
+    <em>emailId:kishorpandit138723@gmail.com <br>mobile:9665832321</em>
+    <br><br><br><br><br><br>
+    <hr>
+    <div>
+        <h2>Objective :</h2>
+        <p> To be a part of an organization where I can utilize my skills and make a
+            significant contribution to the success of the employer and at the same time my individual growth.
+        </p>
+    </div>
+    <hr>
+    <div>
+        <h2>Eduacational Qualifications :</h2>
+        <table border="1px">
+            <th>Education</th>
+            <th>Institute</th>
+            <th>Year of passing</th>
+            <th>percentage/cgpa</th>
+            <tr>
+                <td>BE(Mech)</td>
+                <td>SSBT COET of Jalgaon , Maharashtra</td>
+                <td>71.1%/7.86</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>HSC</td>
+                <td>Modern College of Arts , commerce & Science , Pune</td>
+                <td>79.85%</td>
+                <td>2014</td>
+            </tr>
+            <tr>
+                <td>BE(Mech)</td>
+                <td>SSBT COET of Jalgaon , Maharashtra</td>
+                <td>71.1%/7.86</td>
+                <td>2018</td>
+            </tr>
+        </table>
+        <br><br>
+        <hr>
+    </div>
+    <div>
+       <h2>Co-curricular Activities :</h2> 
+<ul>
+    <li>
+        A seminar is given on Optimization of Wire Electric Discharge Machining of Composite
+        Material.
+    </li>
+    <br>
+    <li>
+        Coordinated successfully on the occasion of Yuvarang, which attracted 300+ participants
+        including speakers from industry and Academics. Facilitated better experience of all
+        participants and dignities by managing their proper reception and accommodation along
+        with their food arrangement.
+       
+    </li>
+</ul>
+<br><hr>
+</div>
+    
+<div>
+    <h2>Personal Details : </h2>
+    <p>
+        Name   : Kishor Pandit
+        <br>
+        Date of Birth : 11 March 1995
+                <br>
+        Adress : At/po - Ringangaon 
+        Taluka - Erandol Dist-Jalgaon
+        PIN 425001
+        <br>
+        Language Known : English , Marathi , Hindi
+    </p>
+    <br><hr>
+</div>
+<div>
+    <h2>Declaration :</h2>
+    <p>
+        I hereby declare that the information furnished above is true to the best of my knowledge and I
+am also confident of my ability to work in a team.
+<br><br>
+Thanking You.
+    </p>
+</div>
+<div>
+    <p align="right"> Yours faithfully ,
+        <br><br>
+        Kishor Pandit</p>
+</div>
+
+</fieldset>
+
+</body>
+
+
+====================================================================================================================================
+
+Assignment 2:
+
+Design a Web page to express your thoughts about Life journey of our dearest late Mr Rishi
+Kapoor or Mr Irrfan Khan.
+
+Answer :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi Kapoor</title>
+</head>
+<style>
+    #final{
+        background-color: gainsboro;
+        width: 1200px;
+    }
+    #fieldset1{
+        background-color: rgb(155, 202, 204);
+        display: inline-block;
+        position: absolute;
+        margin-left: 100px;
+        
+    }
+    #fieldset2{
+        display: inline-block;
+        background-color: honeydew;
+        position: absolute;
+        margin-top: 100px;
+        margin-right: 50px;
+    margin-left: 350px;
+   
+}
+      
+#div3{
+    text-align: justify;
+    display: inline-block;
+    margin-top: 400px;
+    border: 2px solid honeydew;
+    background-color: lavender;
+}
+    
+   
+  
+
+    #div4{
+        display: inline-block;
+        position: absolute;
+        margin-top: 60px;
+        margin-left:  50px;
+        margin-right: 100px;
+    }
+</style>
+<body>
+    <fieldset id="final">
+
+    <fieldset id="fieldset1">
+        <div id="div1" >
+            <H1 align="center">
+     Rishi Kapoor
+            </H1>
+            <img src="rishikapoor.jpg" alt="" align="right" width="200px" >
+        </div>
+<br>
+        <div id="div2">
+            <h2>Bio/Wiki</h2>
+          
+<p>
+    Full Name  : Rishi Raj Kapoor <br>
+    Nickname   : Chintoo <br>
+    Profession : Actor
+</p>
+        </div>
+    </fieldset>
+  
+<fieldset id="fieldset2">
+    <div id="div2">
+        <h2>Career Begins with...</h2>
+        <p>
+            Debut : Film (Hindi) , Mera Naam Joker <br><br>
+            (1970 , as a child actor)
+            <br><br>
+           Bobby (1973 , as a lead )
+           <br><br>
+           Film (Director) : Aa Ab Laut Chalein (1990)
+        </p>
+    </div>
+</fieldset>
+<div id="div3">
+    <h3>
+     !!....Awards , Honours , Achievements....!!
+    </h3>
+    <br><hr>
+<ul>
+    <li>1970 – National Film Award for Mera Naam Joker and Bengal Film Journalists' Association Awards: Special Award</li>
+    <li>1974 – Filmfare Award for Best Actor for Bobby</li>
+    <li>2008 – Filmfare Lifetime Achievement Award</li>
+    <li>2009 – Honoured by Russian Government for contribution to cinema</li>
+    <li>2011 – Zee Cine Awards: Best Lifetime Jodi along with Neetu Singh</li>
+    <li>2013 – The Times of India Film Awards (TOIFA), Best Actor in a Negative Role for Agneepath</li>
+    
+</ul>
+</div>
+<div id="div4">
+    <img src="rishikapoor1.jpg" alt="" width="400px" height="300px">
+</div>
+
+</fieldset>
+</body>
+</html>
+
+============================================================================================================================================================
+
+Assignment 3:
+
+Design the webpage for your favourite Hyperlinks as follows:
+
+Answer :
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Here are my favorite sites</h1>
+    <h4>Click on a name to go to that page</h4>
+    <ul>
+
+    <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+    <li><a href="https://www.WikiPedia.com/" target="_blank">WikiPedia</a></li>
+    <li><a href="https://www.amazon.com/" target="_blank">Amazon</a></li>
+    <li><a href="https://www.LinkedIn.com/" target="_blank">LinkedIn</a></li>
+
+     </ul>
+
+</body>
+</html>
+
+=================================================================================================================================
+
+Assignment 4:
+
+Design the webpage for Nested list as follows:
+
+
+answer :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<body>
+    <h1>The Best Features of the Internet</h1>
+    <ul>
+        <li>You can meet new people from contries around the world.</li>
+        <li >You have access to new media as it becomes public :</li>
+       
+        <ul >
+            <li>New Games</li>
+            <li>New Appliactions</li>
+            <ol type="1">
+                <li>For business</li>
+                <li>For Pleasure</li>
+            </ol>
+            <li>Around the clock news</li>
+            <li>Search Engines</li>
+            <li>Shopping</li>
+            <li>Programming
+                <ol type="1">
+                    <li>XML</li>
+                    <li>Java</li>
+                    <li>HTML 5</li>
+                    <li>JavaScript</li>
+                    <li>New languages</li>
+                </ol>
+            </li>
+        </ul>
+        <Li>Links</Li>
+        <li>Keeping in touch with old friends</li>
+        <li>It's the technology of the future !</li>
+        </ul>
+</body>
+</html>
+
+==============================================================================================================================================
+
+Assignment 5:
+
+Design the webpage for following table:
+
+Answer : 
+
+<html>
+<head>
+<title>Table</title>
+<style>
+   table, th, td { 
+            border: 1px solid black; 
+        } 
+</style>
+</head>
+<body>
+    <h1 style ="color :blue;"><b>Table Example:Spanning Rows and Columns</b></h1>
+       <div>
+        <table style="width:100%"> 
+           <center>
+           <caption>
+           A more complex sample table
+           </caption>
+           </center>
+            <tr> 
+                <th rowspan = "2"><img src="Camel.jpg" alt=" image of camel" width="150" height="200"></img></th> 
+                <th colspan=4>Camelid comparision<br>
+                 Approximate as of 6/2011</th> 
+                 <tr >
+                   <th># of humps</th>
+                   <th>Indigenous region</th>
+                   <th>Splits?</th>
+                   <th>Produces wool?</th>
+                 </tr>
+                <tr >
+                   <th>Camels(bacterian)</th>
+                   <td>2</td>
+                   <td>Africa/Asia</td>
+                   <td>Yes</td>
+                   <td>Yes</td>
+                 </tr>
+                <tr >
+                   <th>Llamas</th>
+                   <td>1</td>
+                   <td>Andes Mountains</td>
+                   <td>Yes</td>
+                   <td>Yes</td>
+                 </tr>
+            </tr> 
+        </table>
+        </div> 
+   
+</body>
+</html>
+
+========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
